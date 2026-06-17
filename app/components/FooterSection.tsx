@@ -54,7 +54,7 @@ export default function FooterSection() {
 
 
               {/* Hospitality note */}
-              <div className="bg-canvas rounded-[16px] p-5 border border-hairline-soft">
+              <div className="border-t border-hairline pt-6">
                 <p className="text-[14px] text-body leading-[1.55]">
                   <span className="font-semibold text-ink">
                     Early foundation:
@@ -82,14 +82,16 @@ export default function FooterSection() {
               {/* Contact email */}
               <div className="mb-8">
                 <a
-                  href="mailto:hello@example.com"
+                  href="mailto:mohh.ilyass@gmail.com
+                  "
                   className="inline-flex items-center gap-3 text-[16px] font-medium text-ink hover:text-brand-pink transition-colors group"
                   id="footer-email"
                 >
-                  <span className="p-2 rounded-[10px] bg-surface-card border border-hairline-soft group-hover:bg-brand-pink/10 group-hover:border-brand-pink/20 transition-colors">
+                  <span className="p-2 rounded-[10px] bg-surface-card border border-hairline-soft group-hover:bg-brand-pink/10 group-hover:border-brand-pink/20 transiton-colors">
                     <MailIcon className="w-5 h-5" />
                   </span>
-                  <span>hello@example.com</span>
+                  <span>mohh.ilyass@gmail.com
+                  </span>
                 </a>
               </div>
 

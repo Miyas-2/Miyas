@@ -162,16 +162,30 @@ body {
   animation: grid-drift 12s linear infinite;
 }
 
-/* ─── Marquee Animation ─── */
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-33.3333%); }
+/* ─── Tech Stack Solar System Orbits & Animation ─── */
+:root {
+  --r-inner: 75px;
+  --r-middle: 135px;
+  --r-outer: 195px;
+}
+@media (min-width: 640px) {
+  :root {
+    --r-inner: 100px;
+    --r-middle: 180px;
+    --r-outer: 260px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --r-inner: 120px;
+    --r-middle: 220px;
+    --r-outer: 320px;
+  }
 }
 
-.animate-marquee {
-  display: flex;
-  width: max-content;
-  animation: marquee 35s linear infinite;
+@keyframes float-space {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
 }
 
 /* ─── Reduced Motion ─── */
@@ -196,4 +210,5 @@ body {
     transition: none;
   }
 }
+
 

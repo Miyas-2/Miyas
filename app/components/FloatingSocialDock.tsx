@@ -40,7 +40,7 @@ export default function FloatingSocialDock() {
           <GitHubIcon className="w-[18px] h-[18px] text-ink" />
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/moh-ilyas?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2.5 rounded-[10px] hover:bg-surface-card transition-colors"
@@ -50,7 +50,7 @@ export default function FloatingSocialDock() {
           <LinkedInIcon className="w-[18px] h-[18px] text-ink" />
         </a>
         <a
-          href="#"
+          href="https://www.instagram.com/miyas.2/"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2.5 rounded-[10px] hover:bg-surface-card transition-colors"
